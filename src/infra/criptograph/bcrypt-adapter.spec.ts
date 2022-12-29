@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt"
-import { BcryptAdapter } from "./criptograph/bcrypt-adapter"
+import { BcryptAdapter } from "./bcrypt-adapter"
 
 const salt = 12
 const makeSut = (): BcryptAdapter => {
